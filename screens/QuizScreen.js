@@ -85,7 +85,6 @@ const QuizScreen = () => {
   }, [index]);
 
   const currentQuestion = data[index];
-  console.log(answerStatus);
 
   return (
     <SafeAreaView>
